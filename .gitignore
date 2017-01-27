@@ -1,3 +1,15 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+!*.R
+
+# Ignore all files named .DS_Store or ending with .log
+#**/.DS_Store
+#**.log
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
